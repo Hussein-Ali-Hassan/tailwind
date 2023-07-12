@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css"
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css",
+    "start": "npx serve . -l 3000"
   },
   "keywords": [],
   "author": "",
